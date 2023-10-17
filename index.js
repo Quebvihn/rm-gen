@@ -12,3 +12,9 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+function qhbrvwer() {
+    console.log('ionknow')
+}
+
+qhbrvwer()
