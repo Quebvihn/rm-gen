@@ -69,6 +69,45 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the instalation instruction?',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log('Please provide instructions for installation.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Provide Information for Usage:',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('Please provide Usage Instructions.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'How can others contribute to this project?',
+        validate: contributionInput => {
+            if (contributionInput) {
+                return true;
+            } else {
+                console.log('Please provide instructions for constibution');
+                return false;
+            }
+        }
+    },
 ];
 
 // TODO: Create a function to write README file
