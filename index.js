@@ -108,6 +108,38 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Describe the tests written for your application and how to use them:',
+        validate: testsInput => {
+            if (testsInput) {
+                return true;
+            } else {
+                console.log('Please provide instructions on how others can contribute to your project.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'confirm',
+        name: 'confirmLicenses',
+        message: 'Would you like to include a license?',
+        default: false
+    },
+    {
+        type: 'list',
+        name: 'licenses',
+        message: 'What license would you like to include?',
+        choices: ['MIT', 'GPL', 'CC--0'],
+        when: ({ confirmLicenses }) => {
+            if (confirmLicenses) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
 ];
 
 // TODO: Create a function to write README file
