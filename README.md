@@ -21,7 +21,6 @@ The ReadMe Generator is a Node.js application that simplifies the process of cre
 
 - Interactive command-line interface to gather project information.
 - Generates a README.md file with sections for project title, description, table of contents, installation, usage, configuration, contributing, tests, and contact information.
-- Customizable templates to match your project's needs.
 - Automatically inserts badges for popular development tools and platforms.
 - Easily update and maintain your project's README.
 
