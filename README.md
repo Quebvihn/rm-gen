@@ -58,12 +58,6 @@ Before you begin, ensure you have [Node.js](https://nodejs.org/) and [npm](https
 
 5. Review and edit the generated README as needed.
 
-## Configuration
-
-The ReadMe Generator can be configured to suit your specific needs. To customize the templates and badges, you can:
-
-- Edit the `templates/` directory to change the structure and formatting of the generated README.
-- Modify the `config/badges.json` file to include or remove badges relevant to your project.
 
 ## License
 
@@ -73,4 +67,4 @@ This project is licensed under the terms of the [MIT License](LICENSE). You are 
 
 Happy coding! If you encounter any issues, have suggestions, or want to contribute to this project, please feel free to open an issue or create a pull request.
 
-For questions or feedback, contact us at [your@email.com](mailto:your@email.com).
+For questions or feedback, contact us at [bamedinatorres@gmail.com](mailto:your@email.com).
